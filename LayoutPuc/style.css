@@ -1,0 +1,97 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.cabeça {
+    background-color: rgb(211, 210, 210);
+    border: 1px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+
+}
+
+.img {
+    display: inline-block;
+    height:160px;
+    width:173px;
+    box-shadow: 0px 7px 10px 0px;
+    margin:8px;
+}
+
+.estilo {
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 14px;
+}
+
+a {
+    color:black;
+    box-shadow: 1px 1px;
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.barraconteudo {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+}
+
+.acao {
+    background-color: rgb(211, 210, 210);
+    border-radius: 10px;
+    border: 1px;
+    margin: 5px;
+}
+
+.terror {
+    background-color: rgb(211, 210, 210);
+    border-radius: 10px;
+    border: 1px;
+    margin: 5px;
+}
+
+.romance{
+    background-color: rgb(211, 210, 210);
+    border-radius: 10px;
+    border: 1px;
+    margin: 5px;
+}
+
+.barra {
+    background-color:rgb(211, 210, 210) ;
+    border: 1px;
+    margin: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 2px;
+
+}
+
+h1 {
+    padding: 0px;
+    border: 0px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.ver {
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+}
+
+.vermais {
+    color: rgb(33, 109, 172);
+    text-decoration: underline;
+}
+
+
+
